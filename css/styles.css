@@ -1,0 +1,60 @@
+:root {
+    --font-comfortaa: 'Comfortaa', cursive;
+    --font-rubik: 'Rubik', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --color-branco: #fefae0;
+    --color-verde-escuro: #31572c;
+    --color-verde-claro: #ecf39e;
+}
+
+
+.comfortaa {
+    font-family: var(--font-comfortaa);
+}
+
+.rubik {
+    font-family: var(--font-rubik);
+}
+
+.roboto {
+    font-family: var(--font-roboto);
+}
+
+.color-branco {
+    color: var(--color-branco);
+}
+
+.color-verde-escuro {
+    color: var(--color-verde-escuro);
+}
+
+.bg-branco {
+    background-color: var(--color-branco);
+}
+
+.bg-verde-escuro {
+    background-color: var(--color-verde-escuro);
+}
+
+.bg-verde-claro {
+    background-color: var(--color-verde-claro);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand img {
+    width: 120px;
+    height: 120px;
+}
+
+.card {
+    width: 28rem;
+    border: transparent;
+}
+
+footer img {
+    width: 150px;
+    height: 150px;
+}
